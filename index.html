@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .card{
+      width: 30%;
+      background-color: white;
+      margin: 5% auto 0% auto;
+      border: solid;
+      border-radius: 15px;
+      box-shadow: 10px 15px;
+      
+    }
+    .img{
+      border: solid;
+      width: 350px;
+      height: 220px;
+      margin: 3% auto 0% auto;
+      overflow: hidden;
+      border-radius: 15px;
+    }
+    .img img{
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+ 
+  button{
+    border: none;
+  }
+  </style>
+</head>
+<body style="background-color: hsl(47, 88%, 63%);">
+
+  <div class="card">
+  <div class="img">
+  <img src="../blog-preview-card-main/assets/images/illustration-article.svg" height="250">
+  </div>
+  <br>
+  <button style="background-color:hsl(47, 88%, 63%); font-size: 20px; color: black; font-weight: bold; margin-left: 9%;">Learning</button>
+
+  <pre style="font-weight: bold; font-size: 20px;">   Published 21 Dec 2023</pre>
+
+  <pre style="font-size: 30px; font-weight: bold;">  HTML & CSS foundations</pre>
+
+  <pre style="color: gray; font-size: 18px;">   These languages are the backbone of every
+   website, defining structure, content,
+   and presentation.</pre>
+<div style="display: flex; margin-left: 20px;">
+<img src="../blog-preview-card-main/assets/images/image-avatar.webp" height="35px"><pre style="font-weight: bold;"> Greg Hooper</pre>
+</div>
+  </div>
+  <br>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Nischal Koirala</a>.
+  </div>
+</body>
+</html>
